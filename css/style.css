@@ -314,7 +314,7 @@ h3 {
 
 /* line 210, ../../Arafath/CL/CL October/215. Photography/HTML/scss/theme-default.scss */
 .section-padding {
-  padding-top: 120px;
+  padding-top: 15px;
   padding-bottom: 120px;
 }
 
@@ -2492,6 +2492,15 @@ h3 {
 }
 .breadcam_bg_5 {
   background-image: url(../img/banner/bradcam_bg_5.png);
+}
+.breadcam_bg_6 {
+  background-image: url(../img/banner/bradcam_bg_6.jpeg);
+}
+.breadcam_bg_7 {
+  background-image: url(../img/banner/bradcam_bg_7.jpg);
+}
+.breadcam_bg_8 {
+  background-image: url(../img/banner/bradcam_bg_8.jpeg);
 }
 /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .bradcam_area {
@@ -5065,6 +5074,9 @@ h6 {
 /*============ blog_left_sidebar css ==============*/
 /* line 525, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_blog.scss */
 .blog_item {
+  width: 1100px;
+  margin-left: 25px;
+  margin-right: 25px;
   margin-bottom: 50px;
 }
 
@@ -6230,3 +6242,16 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
