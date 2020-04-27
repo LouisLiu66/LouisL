@@ -2505,6 +2505,9 @@ h3 {
 .breadcam_bg_9 {
   background-image: url(../img/banner/bradcam_bg_9.jpeg);
 }
+.breadcam_bg_10 {
+  background-image: url(../img/banner/bradcam_bg_10.jpeg);
+}
 /* line 13, ../../Arafath/CL/CL October/215. Photography/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
